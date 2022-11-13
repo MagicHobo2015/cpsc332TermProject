@@ -1,0 +1,6 @@
+// view the files
+http://ecs.fullerton.edu/~cs332f17/
+
+
+// send the files 
+scp ./development/php/cpsc332TermProject/* cs332f17@shell.ecs.fullerton.edu:homepage

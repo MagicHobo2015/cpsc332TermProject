@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> CPSC 332 Term Project! </title>
+
+			<style>
+				body {background-color: rgb(206, 206, 215);}
+				input {border-radius: 5px; border-width: 0px; box-shadow: 2px 2px rgb(94, 94, 98);}
+		
+			</style>
+		</head>
+		<body>
+			<div>
+		
+
+		<h1>Professors</h1>
+		<hr>
+		<form name="Professor_ssn_search_form" action="professorResults.php" method="get">
+			<label>Social Security Search:</label>
+			<input type="text" name="ssn" id="ssn" required> <br>
+			<center> <input type="submit" value="ssn search"> </center> <br>
+		</form>
+		</div>
+		<hr>
+		<div>
+			<form name="Professor_course_section_search_form" action="professorResults.php" method="get">
+				<label>course number:</label>
+				<input type="text" name="course" id="course" required>
+				<label>section number:</label>
+				<input type="text" name="section" id="section" required>
+				<input type="submit" value="course/section search">
+
+			</form>
+		</div>
+		<hr>
+	</body>
+	
+	</html>
