@@ -4,7 +4,6 @@
 		<style>
 				body {background-color: rgb(206, 206, 215);}
 				input {border-radius: 5px; border-width: 0px; box-shadow: 2px 2px rgb(94, 94, 98);}
-		
 			</style>
 	</head>
 	<h1>Student Search</h1>
